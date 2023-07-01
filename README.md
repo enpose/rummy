@@ -15,8 +15,9 @@ commands to remember
 Setup Steps
 1. Install rw, yarn, graphql, etc.
 1. personal step not for other contributors run
+    **Bash**
     ```bash
-    yarn create redwood-app rummy
+      yarn create redwood-app rummy
     ```
 1. Other contributors
     ```
