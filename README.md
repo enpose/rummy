@@ -1,15 +1,15 @@
 commands to remember
 1. yarn rw dev
-  * starts dev server on localhost:8910
+    * starts dev server on localhost:8910
 1. yarn rw prisma migrate dev
-  * updates prisma shema
+    * updates prisma shema
 1. yarn install
-  * install dependencies from requirements.txt
+    * install dependencies from requirements.txt
 1. yarn rw test
-  * starts jest testing suite in terminal
-1. yarn rw g ______ asdf
-  * generate scaffolds, layouts, components, cells, etc.
-  * FIXME explain differences between different generator types
+    * starts jest testing suite in terminal
+1. yarn rw g ______
+    * generate scaffolds, layouts, components, cells, etc.
+    * FIXME explain differences between different generator types
 
 
 Setup Steps
