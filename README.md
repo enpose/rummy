@@ -14,7 +14,10 @@ commands to remember
 
 Setup Steps
 1. Install rw, yarn, graphql, etc.
-1. run ```yarn create redwood-app rummy``` my step but not other contributor steps
+1. personal step not for other contributors run
+    ```bash
+    yarn create redwood-app rummy
+    ```
 1. Other contributors
     ```
     git clone https://github.com/enpose/rummy
