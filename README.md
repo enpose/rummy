@@ -1,21 +1,21 @@
 commands to remember
 1. yarn rw dev
   * starts dev server on localhost:8910
-2. yarn rw prisma migrate dev
+1. yarn rw prisma migrate dev
   * updates prisma shema
-3. yarn install
+1. yarn install
   * install dependencies from requirements.txt
-4. yarn rw test
+1. yarn rw test
   * starts jest testing suite in terminal
-5. yarn rw g ______
+1. yarn rw g ______ asdf
   * generate scaffolds, layouts, components, cells, etc.
   * FIXME explain differences between different generator types
 
 
 Setup Steps
 1. Install rw, yarn, graphql, etc.
-2. run ```yarn create redwood-app rummy``` my step but not other contributor steps
-3. Other contributors
+1. run ```yarn create redwood-app rummy``` my step but not other contributor steps
+1. Other contributors
     ```
     git clone https://github.com/enpose/rummy
     cd redwood-tutorial
@@ -23,18 +23,18 @@ Setup Steps
     yarn rw prisma migrate dev
     yarn rw g secret
     ```
-4. Make sure ```git config --get core.autocrlf``` is true if using windows
+1. Make sure ```git config --get core.autocrlf``` is true if using windows
    CONFIRM LATER: Make sure ```git config --get core.autocrlf``` is input if using windows
-  
+
 
 
 TODO
 1. test markdown autonumbering
 1. Add SESSION_SECRET to .env for authentication
     * yarn rw g secret
-2. Setup ui ```yarn rw setup ui tailwindcss```
-3. Make website and apply for docsGPT
-4. Get local install of docsGPT up
+1. Setup ui ```yarn rw setup ui tailwindcss```
+1. Make website and apply for docsGPT
+1. Get local install of docsGPT up
 
 
 
