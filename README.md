@@ -1,3 +1,22 @@
+TODO
+1. Change default role to user
+1. Add PostsLayout from tutorial part 2 repo
+1. Update PostgeSQL password
+1. Component > Comment // FIXME: CSS styles from RW tutorial not working, fix or make new ones
+1. Add true input validation to contact us, specifically email
+1. test markdown autonumbering
+1. Add SESSION_SECRET to .env for authentication
+    * yarn rw g secret
+1. Setup ui ```yarn rw setup ui tailwindcss```
+1. Make website and apply for docsGPT
+1. Get local install of docsGPT up
+1. Add SEO, MetaTags can help?
+1. Find line about how rw imports don't need {} becuase of some built in functions
+1. figure out where and how i was interacting directly with db/graphql api requests from the comannad line
+1. Add dark mode to storybook and update tutorial
+
+
+
 commands to remember
 1. yarn rw dev
     * starts dev server on localhost:8910
@@ -7,17 +26,33 @@ commands to remember
     * install dependencies from requirements.txt
 1. yarn rw test
     * starts jest testing suite in terminal
-1. yarn rw g ______
+1. yarn rw generate ______ (alias: g)
     * generate scaffolds, layouts, components, cells, etc.
     * FIXME explain differences between different generator types
+1. yarn rw g types
+    * generates types from your codebase, useful when first setting up a graphQL service or changeing type names
+1. yarn rw console (alias: c)
+    * Launch an interactive Redwood shell (experimental)
+
+URLs
+1. rw dev @ http://localhost:8910
+2. yarn rw graphql @ http://localhost:8911/graphql
+3. yarn rw storybook @ http://localhost:7910
+
 
 
 Setup Steps
 1. Install rw, yarn, graphql, etc.
+1. If on windows follow this guide to get git bash and nvm setup
+      https://redwoodjs.com/docs/how-to/windows-development-setup
+1. Check that node and yarn are installed and uptodate FIXME: add necessary node and yarn versions
+    ```
+    node --version
+    yarn --version
+    ```
 1. personal step not for other contributors run
 
     ```bash
-      **Bash**
       yarn create redwood-app rummy
     ```
 1. Other contributors
@@ -31,15 +66,6 @@ Setup Steps
 1. Make sure ```git config --get core.autocrlf``` is true if using windows
    CONFIRM LATER: Make sure ```git config --get core.autocrlf``` is input if using windows
 
-
-
-TODO
-1. test markdown autonumbering
-1. Add SESSION_SECRET to .env for authentication
-    * yarn rw g secret
-1. Setup ui ```yarn rw setup ui tailwindcss```
-1. Make website and apply for docsGPT
-1. Get local install of docsGPT up
 
 
 
